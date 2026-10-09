@@ -1,0 +1,10 @@
+Vérifications effectuées le 9 octobre 2026
+- Syntaxe JavaScript : valide.
+- Calcul du compte à rebours : jours, heures, minutes, secondes, date passée et décalage UTC+01:00 validés.
+- Aperçu réel dans le navigateur intégré : ouverture au clic et à Entrée, réouverture, transfert de focus et mise à jour des secondes observés.
+- Affichage inspecté sur ordinateur et à 390 px ; absence de débordement horizontal mesurée à 390 et 320 px.
+- Recherche Google Maps vérifiée dans le lien ; la salle n’a pas été géolocalisée ou confirmée.
+- Réduction des animations et secours sans JavaScript implémentés, non testés dans le navigateur intégré.
+- Publication GitHub / Netlify non effectuée ; sources et configuration fournies.
+
+Nouvelle version : visuels WebP générés intégrés (404 Ko au total environ), nouvelle composition vérifiée dans le navigateur intégré sur ordinateur et téléphone ; ouverture et réouverture observées, secondes dynamiques, lien de navigation vers le lieu testé. Largeurs de page contrôlées à 390 et 320 px. Images décoratives d’inspiration, pas la salle réelle.
