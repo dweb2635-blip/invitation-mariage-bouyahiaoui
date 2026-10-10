@@ -1,5 +1,11 @@
+
 'use strict';
 const translations = [
+ ['.photo-notice-label','A KIND REQUEST','رجاء من القلب'],
+ ['#photo-notice-title','Memories held in our hearts','ذكريات تبقى في القلوب'],
+ ['.photo-notice-rule','Please refrain from taking photos during our wedding.','نرجو منكم عدم التقاط الصور خلال حفل زفافنا.'],
+ ['.photo-notice-message','To preserve the privacy of this beautiful day, we kindly ask you to keep your cameras and phones tucked away and enjoy these moments with us.','حفاظاً على خصوصية هذا اليوم الجميل، نرجو منكم إبقاء الهواتف والكاميرات جانباً والاستمتاع معنا بكل لحظة من هذه الفرحة.'],
+ ['.photo-notice-thanks','Thank you from the bottom of our hearts for your understanding and thoughtfulness.','شكراً من القلب لتفهمكم ولطفكم ومراعاتكم لرغبتنا.'],
  ['.skip','Go to the invitation','الانتقال إلى الدعوة'],
  ['.welcome-intro','Welcome to<br>our wedding','أهلاً بكم<br>في حفل زفافنا'],
  ['.welcome-names, .names, .signature','Islem <span>&</span> Manel','إسلام <span>و</span> منال'],
