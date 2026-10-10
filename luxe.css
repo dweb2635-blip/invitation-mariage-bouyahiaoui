@@ -131,3 +131,13 @@ html[lang=ar] .wedding-calendar th{font-size:9px;letter-spacing:0}
 #gallery-count{font-size:11px;letter-spacing:.15em;color:#8f795b;font-variant-numeric:tabular-nums;min-width:65px}
 @media(max-width:700px){.venue-gallery{padding:0 22px 70px}.venue-gallery h2{font-size:40px;margin-bottom:25px}.venue-gallery>.eyebrow{font-size:8px}.gallery-controls{gap:16px;margin-top:18px}}
 @media(max-width:700px){.invitation-family{font-size:24px}}
+
+/* Une demande délicate, bien visible dès le début de l’invitation. */
+.photo-notice{box-sizing:border-box;width:calc(100% - 40px);max-width:760px;margin:12px auto 56px;padding:34px 36px;text-align:center;background:#f4eadb;border:1px solid #b99a68;border-radius:18px;box-shadow:0 8px 28px #74553512;color:#59442f}
+.photo-notice-icon{display:block;width:42px;height:42px;margin:0 auto 16px;color:#876537}
+.photo-notice .photo-notice-label{margin:0 0 12px;font-size:11px;font-weight:600;letter-spacing:.18em;color:#765831}
+.photo-notice h2{margin:0 0 18px;font-family:var(--serif);font-size:clamp(29px,5vw,40px);line-height:1.2;color:#59442f}
+.photo-notice .photo-notice-rule{margin:0 auto 14px;font-size:18px;font-weight:600;line-height:1.6;color:#59442f}
+.photo-notice .photo-notice-message{max-width:610px;margin:0 auto;font-size:16px;line-height:1.8;color:#59442f}
+.photo-notice .photo-notice-thanks{margin:20px auto 0;font-family:var(--serif);font-size:18px;font-style:italic;line-height:1.6;color:#765831}
+@media(max-width:600px){.photo-notice{width:calc(100% - 32px);padding:28px 20px;margin-bottom:36px}.photo-notice .photo-notice-rule{font-size:17px}}
